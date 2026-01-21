@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="40.074" tests="11" failures="8">
+  <testsuite name="Root Suite" timestamp="2026-01-20T17:48:37" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Planets API Suite" timestamp="2026-01-20T17:48:37" tests="0" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Fetching Planet Details" timestamp="2026-01-20T17:48:37" tests="8" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="40.042" failures="8">
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Mercury" time="10.002" classname="it should fetch a planet named Mercury">
+      <failure message="Timeout of 10000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (/home/yash/Downloads/Jenkins Project/solar-system/app-test.js)" type="Error"><![CDATA[Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/yash/Downloads/Jenkins Project/solar-system/app-test.js)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Venus" time="0.017" classname="it should fetch a planet named Venus">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Earth" time="9.991" classname="it should fetch a planet named Earth">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Mars" time="0.012" classname="it should fetch a planet named Mars">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Jupiter" time="9.994" classname="it should fetch a planet named Jupiter">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Satrun" time="0.011" classname="it should fetch a planet named Satrun">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Uranus" time="9.994" classname="it should fetch a planet named Uranus">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+    <testcase name="Planets API Suite Fetching Planet Details it should fetch a planet named Neptune" time="0.010" classname="it should fetch a planet named Neptune">
+      <failure message="alert is not defined" type="ReferenceError"><![CDATA[ReferenceError: alert is not defined
+    at /home/yash/Downloads/Jenkins Project/solar-system/app.js:47:13
+    at /home/yash/Downloads/Jenkins Project/solar-system/node_modules/mongoose/lib/model.js:5082:18
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Testing Other Endpoints" timestamp="2026-01-20T17:49:17" tests="0" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="it should fetch OS Details" timestamp="2026-01-20T17:49:17" tests="1" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="0.021" failures="0">
+    <testcase name="Testing Other Endpoints it should fetch OS Details it should fetch OS details" time="0.020" classname="it should fetch OS details">
+    </testcase>
+  </testsuite>
+  <testsuite name="it should fetch Live Status" timestamp="2026-01-20T17:49:17" tests="1" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="0.005" failures="0">
+    <testcase name="Testing Other Endpoints it should fetch Live Status it checks Liveness endpoint" time="0.005" classname="it checks Liveness endpoint">
+    </testcase>
+  </testsuite>
+  <testsuite name="it should fetch Ready Status" timestamp="2026-01-20T17:49:17" tests="1" file="/home/yash/Downloads/Jenkins Project/solar-system/app-test.js" time="0.004" failures="0">
+    <testcase name="Testing Other Endpoints it should fetch Ready Status it checks Readiness endpoint" time="0.003" classname="it checks Readiness endpoint">
+    </testcase>
+  </testsuite>
+</testsuites>
